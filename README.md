@@ -45,7 +45,7 @@ Digital outputs, just as names
 ```yaml
 steps:
   - name: Get current time
-    uses: 1466587594/get-current-time@v2
+    uses: MyJetTools/get-current-time@v2
     id: current-time
     with:
       format: YYYYMMDD-HH
